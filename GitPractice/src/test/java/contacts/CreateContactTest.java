@@ -1,10 +1,18 @@
 package contacts;
 
-public class CreateContactTest {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class CreateContactTest {
+@Test
+	public void createContactTest() {
 		System.out.println("===create contact=====");
 
 	}
+@Test
+public void modifyContactTest() {
+	System.out.println("===modifyContactTest=====");
+
+}
+
 
 }
